@@ -165,24 +165,11 @@ public class ProductPage  {
     }
 
 
-//        public void attributeTest(){
-//        String attiribute=methods.getAttribute(By.xpath("//div[@class='product-cr']/div[2]/div[3]/a[@data-title='Favorilerimden Sil"),"title");
-//            System.out.println("Alınan text "+ attiribute);
-//            logger.info("Alınan text "+ attiribute);
-//            methods.waitBySeconds(3);
-//        }
         public void textControlTest(){
         String text=methods.getText(By.cssSelector(".common-sprite"));
             System.out.println("Alınan text "+text);
             logger.info("Alınan text"+text);
             methods.waitBySeconds(3);
         }
-//        public  void valueControlTest(){
-//        methods.senKeys(By.id("search-input"),"testinium");
-//        String value =methods.getValue(By.id("search-input"));
-//        System.out.println("Alınan text "+ value);
-//        logger.info("Alınan text "+ value);
-//            Assert.assertEquals("testinium",value);
-//            methods.waitBySeconds(5);
-//        }
+
 }
